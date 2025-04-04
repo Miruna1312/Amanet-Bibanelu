@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Exemplu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Meniu de navigare -->
+    <nav>
+        <ul>
+            <li><a href="#home" class="btn">Acasă</a></li>
+            <li><a href="#despre-noi" class="btn">Despre Noi</a></li>
+            <li><a href="#preturi" class="btn">Prețuri</a></li>
+            <li><a href="#contact" class="btn">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Secțiunea Acasă -->
+    <section id="home">
+        <h2>Bine ai venit pe site-ul nostru!</h2>
+        <p>Descoperă informațiile despre prețurile noastre, serviciile oferite și cum să ne contactezi. Alege categoria care te interesează!</p>
+    </section>
+
+    <!-- Secțiunea Despre Noi -->
+    <section id="despre-noi">
+        <h2>Despre Noi</h2>
+        <p>Suntem o echipă dedicată să oferim produse de calitate și servicii excelente. Vrem să îți aducem cele mai bune soluții, fie că e vorba de mașini, haine sau accesorii.</p>
+    </section>
+
+    <!-- Secțiunea Prețuri -->
+    <section id="preturi">
+        <h2>Prețuri</h2>
+        <h3>Mașini</h3>
+        <ul>
+            <li>Xenon >Red - 50.000$</li>
+            <li>Blue - 1.000$</li>
+            <li>Yellow - 1.000$</li>
+            <li>LightYellow - 1.000$</li>
+            <li>LightBlue - 1.000$</li>
+            <li>LightGreen - 1.000$</li>
+            <li>Green - 1.000$</li>
+        </ul>
+        <p><strong>Notă:</strong> Prețul de remat pentru mașini este 65% din prețul de vânzare.</p>
+
+        <h3>Haine</h3>
+        <ul>
+            <li>Depinde de raritatea articolului.</li>
+            <li>Haine Halloween până în 150k (în funcție de articolul vestimentar).</li>
+            <li>Tricourile Halloween - între 15-20k maxim.</li>
+            <li>Hanoracele Halloween - până în 150k (în funcție de raritate).</li>
+            <li>Lanturi Halloween:
+                <ul>
+                    <li>BatMan – 10k</li>
+                    <li>Jason – între 150k-200k</li>
+                </ul>
+            </li>
+            <li>Măștile Halloween - până în 50k, în funcție de raritate.</li>
+            <li>Hainele de Crăciun - până în 100.000$.</li>
+        </ul>
+
+        <h3>Jante</h3>
+        <ul>
+            <li>Jantele le achiziționezi la preț de 50% din valoarea lor.</li>
+        </ul>
+    </section>
+
+    <!-- Secțiunea Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Pentru orice întrebări sau informații suplimentare, nu ezita să ne contactezi!</p>
+        <form>
+            <label for="nume">Nume:</label>
+            <input type="text" id="nume" name="nume" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mesaj">Mesaj:</label>
+            <textarea id="mesaj" name="mesaj" rows="4" required></textarea>
+            <button type="submit">Trimite mesajul</button>
+        </form>
+    </section>
+
+</body>
+</html>
